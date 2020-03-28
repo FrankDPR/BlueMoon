@@ -1,0 +1,426 @@
+body{
+    margin: 0px;
+    display: block;
+}
+.nab{
+    /*box-shadow: 4px 4px 20px 0 #AEAEC0;*/
+    position: fixed;
+    background: rgba(240, 240, 243, 0);
+    width: 100%;
+    padding: 8px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+
+}
+#logo-nav{
+    height: 18px;
+    width: 18px;
+    background-image: url('../assets/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+}
+/*Navbar float*/
+.navbar-fixed.scrolled{
+    background-color:#122241!important;
+    transition: background-color 400ms linear;
+    color: ivory;
+}
+.nav-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: none;
+    height: 15px;
+    width: 18px;
+    margin-left: 3px;
+    background-image: url('../assets/side-whide.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.items{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Baloo Thambi 2";
+    font-weight: Regular;
+}
+.items a:hover{
+    text-decoration: whitesmoke;
+    color: rgb(149, 216, 255);
+}
+.items a{
+    margin: 0px 15px;
+}
+
+/*********************************************************************/
+.uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/moon.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 0em;
+}
+#bm{
+    font-family:'Cabin', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.514);
+}
+#search{
+    width: 30%;
+}
+.dos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -130px;
+}
+.do{
+    display: flex;
+    background: #F0F0F3;
+    box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.37);
+    flex-direction: row;  
+}
+.d1{
+    background: #000;
+    height: 250px;
+    width: 400px;
+}
+.d2{
+    background: #222222;
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 12px;
+}
+.tres{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #151515;
+    width: 100%;
+    height: auto;
+    margin: 0em;
+}
+#popu{
+    margin: 180px 0px 40px 0px;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.534);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.img1{
+    width: 800px;
+    height: 380px;
+    background-image: url('../assets/foto-luna.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.img2{
+    width: 800px;
+    height: 380px;
+    background-image: url('../assets/41418.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.img3{
+    width: 800px;
+    height: 380px;
+    background-image: url('../assets/fase.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.cuatro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.cuatro div{
+    height: 400px;
+    width: 50%;
+}
+.c1{
+    background-image: url('../assets/astronauta-luna.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+}
+.c2{
+    background: #0E0F16;
+    color: white;
+    font-family: "Baloo Thambi 2";
+    font-weight: Regular;
+}
+.cinco{
+    background-image: url('../assets/tierra-luna.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.seis{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.s1{
+    background: #3D1E21;
+    height: 400px;
+    width: 50%;
+    color: white;
+    font-family: "Baloo Thambi 2";
+    font-weight: Regular;
+}
+.s2{
+    background-image: url('../assets/galaxy.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+}
+/************************* CARDS ***************************/
+.card {
+    font-weight: 400;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /*border: 1px solid rgba(0,0,0,0.125);*/
+    border-radius: .25rem;
+}
+.mimosa-text {
+    color: #F0C05A;
+}
+.chili-pepper-text {
+    color: #9B1B30;
+}
+/**************************** navbar *****************************/
+.side-nav.wide.slim {
+    width: 3.75rem !important;
+}
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+/*************************************************************/
+
+.sidebar{
+    /*border-right: 1px solid #ccc!important;*/
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+    visibility: collapse;
+    height: 0px;
+    width: 0px;
+    background: #fff;
+    position: fixed!important;
+    z-index: 12;
+    overflow: auto;
+    
+    border-radius: 0% 0% 100% 0%;
+    transition: border-radius 2000ms, height 700ms, width 700ms;
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    
+}
+.side-items{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.side-top{
+    display: flex;
+    justify-content: flex-start;
+}
+.side-btn{
+    width: 30px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    color:  rgb(182, 182, 182);
+    background: white;
+    /*box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);*/
+    transition: all 200ms ease-out;
+}
+.side-btn:hover{
+    
+    box-shadow: 0px 0px 8px 2px rgba(75, 75, 75, 0.185);
+
+}
+.inMenu{
+    width: 100%;
+    height: 100%;
+    border-radius: 0% 0% 0% 0%;
+}
+.outMenu{
+    width: 0px;
+    height: 0px;
+    border-radius: 0% 10% 100% 10%; 
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: #122241;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+}
+.foot-logo{
+    height: 25px;
+    width: 100%;
+    background-image: url('../assets/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 15px 0px;
+}
+.foot-links{
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Baloo Thambi 2 SemiBold";
+    justify-content: center;
+    margin: 30px 0px;
+}
+.foot-links a{
+    margin: 0px 40px;
+}
+#copy{
+    text-align: center;
+    font-family: "Baloo Thambi 2";
+    font-weight: Medium;
+    background: rgba(0,0,0,0.12);
+    color: rgba(255, 255, 255, 0.603);
+    font-size: 12px;
+    margin-bottom: inherit;
+    padding: 15px 0px;
+}
+
+@media screen and (max-width: 830px){
+    .sidebar{
+        visibility: visible;
+    }
+    .menu{
+        display: block;
+    }
+    .items{
+        display: none;
+    }
+    #search{
+        top: 100px;
+        width: 70%;
+    }
+    .dos{
+        position: relative;
+        margin-top: auto;
+        z-index: 0;
+    }
+    .do{
+        box-shadow: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .d1{
+        width: 100%;
+    }
+    .d2{
+        width: 100%;
+        height: 200px;
+        font-size: 16px;
+    }
+    .tres{
+        height: 400px;
+    }
+    #popu{
+        margin: 20px 0px;
+        margin-top: 0px;
+
+    }
+    .cards{
+        width: 100%;
+        height: 200px;
+    }
+    .img1{
+        width: 300px;
+        height: 200px;
+        
+    }
+    .img2{
+        width: 300px;
+        height: 200px;
+        
+    }
+    .img3{
+        width: 300px;
+        height: 200px;
+    }
+    .cuatro{
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+    }
+    .c2{
+        color: slategrey;
+        text-align: center;
+    }
+    .cuatro div{
+        width: 100%;
+    }
+    .cinco{
+        height: 200px;
+    }
+    .seis{
+        flex-direction: column;
+    }
+    .seis div{
+        width: 100%;
+    }
+    .foot-links{
+        flex-direction: column;
+        text-align: center;
+    }
+}
